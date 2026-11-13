@@ -717,10 +717,19 @@
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-8322cc1dd2a44837b4306d45842d9825.xml#id-8322cc1dd2a44837b4306d45842d9825"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-4c784a8583044c60a25e23e36bfec10d"
+          source="id-c338906df13143f4a41959e0c2ff6a87"
+          target="id-ceb839d94c7b4867add5784eb0ab0474">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-01db9258ec0549f68e3a9abf69c2cf90.xml#id-01db9258ec0549f68e3a9abf69c2cf90"/>
+      </sourceConnections>
       <bounds
           x="330"
           y="156"
-          width="565"
+          width="691"
           height="101"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -783,6 +792,21 @@
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-5552093cc7974754a67553625cfa576d.xml#id-5552093cc7974754a67553625cfa576d"/>
       </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-ceb839d94c7b4867add5784eb0ab0474"
+          targetConnections="id-4c784a8583044c60a25e23e36bfec10d"
+          fillColor="#48a8ff"
+          textPosition="1">
+        <bounds
+            x="552"
+            y="36"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:BusinessProcess"
+            href="BusinessProcess_id-3f07f620a2aa40899bf1be89d5ba8ce6.xml#id-3f07f620a2aa40899bf1be89d5ba8ce6"/>
+      </children>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_id-a39d14a87f194d3c8f7fec85e6bef720.xml#id-a39d14a87f194d3c8f7fec85e6bef720"/>
@@ -811,7 +835,7 @@
             href="AggregationRelationship_89ddda39-dc06-4ee1-b1e2-8f067b05f7a5.xml#89ddda39-dc06-4ee1-b1e2-8f067b05f7a5"/>
       </sourceConnections>
       <bounds
-          x="906"
+          x="1044"
           y="156"
           width="301"
           height="101"/>
@@ -875,7 +899,7 @@
             href="AggregationRelationship_id-123d0d35b3ec47f48e9a697e9b00acc9.xml#id-123d0d35b3ec47f48e9a697e9b00acc9"/>
       </sourceConnections>
       <bounds
-          x="1218"
+          x="1356"
           y="156"
           width="301"
           height="101"/>
@@ -928,7 +952,7 @@
             href="AggregationRelationship_id-d5e0d79316e443909039573d8887f247.xml#id-d5e0d79316e443909039573d8887f247"/>
       </sourceConnections>
       <bounds
-          x="1536"
+          x="1674"
           y="156"
           width="313"
           height="99"/>
@@ -1182,7 +1206,7 @@
             href="AggregationRelationship_id-eda234127d5f4ea685e730a7b7a922f2.xml#id-eda234127d5f4ea685e730a7b7a922f2"/>
       </sourceConnections>
       <bounds
-          x="1860"
+          x="1998"
           y="156"
           width="193"
           height="99"/>
@@ -1888,7 +1912,7 @@
             href="AggregationRelationship_id-bd3a9b82627f464080e413a27ecd144b.xml#id-bd3a9b82627f464080e413a27ecd144b"/>
       </sourceConnections>
       <bounds
-          x="2064"
+          x="2202"
           y="154"
           width="301"
           height="101"/>
